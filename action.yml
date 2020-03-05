@@ -1,0 +1,14 @@
+name: Sent telegram action 2
+description: Sent telegram action 2
+inputs:
+  key: 
+    description: telegra key
+    required: true
+  chat_id:
+    description: chat room key
+    required: true
+  text:
+    description: telegra text
+runs:
+  using: node12
+  main: 'dist/index.js'
