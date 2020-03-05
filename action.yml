@@ -1,7 +1,8 @@
 name: Sent telegram action 2
 description: Sent telegram action 2
-icon: battery-charging
-color: blue
+branding:
+  icon: battery-charging
+  color: blue
 inputs:
   key: 
     description: telegra key
